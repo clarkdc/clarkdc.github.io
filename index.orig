@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://clarkdc.github.io/images/prism.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+
+<header id="header" class="loading" style="opacity: 0.5;">
+  <h1 class="font_0" style="font-size: 66px; line-height: 1.2em;">
+	  <span style="font-family:lulo-clean-w01-one-bold,sans-serif; letter-spacing: 0.05em;">
+	    [
+	    <span class="color_11">ESC</span>
+	    ]
+	  </span>
+  </h1>
+</header>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:white;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<div class="parallax"></div>
+
+</body>
+</html>
+
